@@ -4,7 +4,7 @@ public class Watermelon {
 
     public static String divideWatermelon(int x) {
 
-        if (x >= 4) {
+        if (x >= 4&& x<=100) {
 
         if (x % 2 == 0) {
             if ((x - 2) % 2 == 0) {
